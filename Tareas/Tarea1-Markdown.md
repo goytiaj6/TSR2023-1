@@ -88,7 +88,7 @@ donde:
 
 
 
-- Sensores y actuadores que lo integran
+### Sensores y actuadores que lo integran
 
   Según la página de Robotis, el único sensor que usa el TurtleBot3 en su versión Burger es un     LIDAR "LDS-01" o "LDS-02" [[6]](#6)
 
