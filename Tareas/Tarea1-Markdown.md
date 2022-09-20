@@ -6,7 +6,7 @@ Desarrollo
 | Código | Description |
 | ------:| ----------- |
 | ***Asignatura*** | Código del Trabajo o Número de Tarea | 
-| **TSM-2023-1** |  Tarea1-MArkdown |
+| **TSM-2023-1** |  Tarea1-Markdown |
 
 ## Contenido
 - [1 . Introducción](#introduccion)
