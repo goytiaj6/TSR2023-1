@@ -16,21 +16,18 @@ Desarrollo
 - [5 . Referencias](#referencias)
 
 ## Introducción
-MarkDown fue desarrollado en 2004 por John Gruber y Aaron Swartz, Markdown es un sistema de formato abierto que simplifica el proceso de estructuración del texto. Con una codificación mínima, es fácil de usar, visualmente más limpio y también puede ser convertido a HTML de manera muy sencilla.
+Markdown originalmente nació como una herramienta de conversión de texto plano a HTML. Esta herramienta fue creada en 2004 por John Gruber que es distribuida de manera gratuita bajo una licencia BSD (Berkeley Software Distribution, un tipo del sistema operativo Unix-like). Markdown es considerado como un lenguaje ya que permite crear contenido de una manera sencilla de escribir, manteniendo un diseño legible. Visto de manera muy simple, Markdown puede considerarse como un método de escritura.
 
-Este lenguaje puede ser procesado en muchos programas, desde Microsoft Word hasta Openoffice.org Writer; y sus archivos se vuelven pequeños y difícilmente se rompen.
+Markdown cuenta con tres tipos de elementos básicos, siendo elementos de bloque, elementos de línea y elementos varios,  entro los cuales nos permite crear:
 
-Con él, eres capaz de crear:
+* Encabezados
+* Listas
+* Citas
+* Links
+* Código
+* Imágenes
 
-* Marcaciones 
-* Títulos 
-* Textos 
-* Links 
-* Códigos
-
-Todo de una manera limpia, legible y precisa, y más rápido que si se hiciera usando HTML. MarkDown wa inmensamente más legible y está al alcance de la gente que no es desarrollador. [[1]](#1)
-
-En esta tarea se hará práctica cpn su implementación desarrollando temas de interés para la materia de temas selectos de ingeniería mecatrónica del semestre 2023-1
+Markdown permite realizar lo antes mencionado y más, de forma rápida, sencilla y limpia, además de que se basa en texto plano, tiene compatiblidad con topo tipo de dispositivos. [[1]](#1)[[2]](#2)
 
 ## Desarrollo
 ### Clasificación de los robots móviles por configuración 
@@ -120,10 +117,10 @@ Algunos de los tópicos que opcupa
 | **JHGG**  | Jorge Hadamard Goytia González [GitHub profile](https://github.com/goytiaj6) |
 
 ## Referencias
-<a id="1">[1]</a> ¿De qué manera Markdown simplifica la creación de textos en la web? (s/f). Hostgator.mx. Recuperado el 14 de septiembre de 2022, de https://www.hostgator.mx/blog/markdown/
+<a id="1">[1]</a> J. Cristóbal. "Markdown - La guía definitiva en español". Markdown. https://markdown.es/ (accedido el 18 de septiembre de 2022).
 
 
-<a id="2">[2]</a> Lynch, K. M., & Park, F. C. (2017). MECHANICS, PLANNING, AND CONTROL. Northwestern.edu. http://hades.mech.northwestern.edu/images/7/7f/MR.pdf
+<a id="2">[2]</a> J. Cristóbal. "Sintaxis Markdown al completo - Cheatsheet en español". Markdown. https://markdown.es/sintaxis-markdown/ (accedido el 18 de septiembre de 2022).
 
 
 <a id="3">[3]</a> (S/f). Femexrobotica.org. Recuperado el 16 de septiembre de 2022, de https://www.femexrobotica.org/eir2016-2017/wp-content/uploads/robots_omnidireccionales.pdf
