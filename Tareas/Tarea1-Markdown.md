@@ -117,7 +117,7 @@ Algunos de los tópicos que opcupa
 ## Autor
 | Iniciales  | Description |
 | ----------:| ----------- |
-| **JHGG**  | Jorge Hadamard Goytia González [GitHub profile](https://github.com/Laos198](https://github.com/goytiaj6) |
+| **JHGG**  | Jorge Hadamard Goytia González [GitHub profile](https://github.com/goytiaj6) |
 
 ## Referencias
 <a id="1">[1]</a> ¿De qué manera Markdown simplifica la creación de textos en la web? (s/f). Hostgator.mx. Recuperado el 14 de septiembre de 2022, de https://www.hostgator.mx/blog/markdown/
