@@ -43,6 +43,7 @@ Siendo los robots moviles por ruedas la categoría que tiene mayor desarrollo, e
 * No holonómicos
 
 Donde lo que los caracteriza es el tipo de rueda que utilizan, ya que los robots no holonómicos utilizan ruedas convencionales como las que tienen los autos normales.
+
 ![image](https://ars.els-cdn.com/content/image/1-s2.0-S092188901300095X-gr1.jpg)
 
 Mientras que los omnidireccionales utilizan ruedas mecanum, mejor conocidas como ruedas secas. Estas ruedas generalmente es una llanta aumentada con rodillos en su circunferencia que giran libremente permitiendo un deslizamiento en todas las direcciones del sistema.
