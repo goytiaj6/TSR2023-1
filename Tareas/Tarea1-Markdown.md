@@ -1,7 +1,5 @@
 # Practica de documentación en Markdown
 
-Desarrollo 
-
 ## 
 
 | Código | Descripcion |
@@ -11,11 +9,16 @@ Desarrollo
 
 ## Contenido
 
-- [1 . Introducción](#introduccion)
-- [2 . Desarrollo](#desarrollo)
-- [3. Conclusiones](#conclusiones)
-- [4 . Autor](#autor)
-- [5 . Referencias](#referencias)
+- [1. Objetivo](#Objetivo)
+- [2. Introducción](#Introduccion)
+- [3. Desarrollo](#Desarrollo)
+- [4 Conclusiones](#Conclusiones)
+- [5. Autor](#Autor)
+- [6. Referencias](#Referencias)
+
+## Objetivo
+
+Generar un documento en formato Markdown para familiarizarse con el mismo
 
 ## Introducción
 
