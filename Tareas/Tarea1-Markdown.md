@@ -57,21 +57,16 @@ Mientras que los omnidireccionales utilizan ruedas mecanum, mejor conocidas como
 
 ### Conceptos de localización, ruta, odometría y planeación de ruta.
 * Localización: Consiste en determinar la posición del robot en relación a un mapa dado del entorno. [[4]](#4)
-* Ruta: Representa la secuencia de posiciones en las que un robot se encuentre libre de colisiónes con los obstáculos del espacio de trabajo. [[5]](#5)
+* Ruta: Representa la secuencia de posiciones en las que un robot se encuentre libre de colisiones con los obstáculos del espacio de trabajo. [[5]](#5)
 * Odometría: Es el estudio de la estimación de la posición de vehículos con ruedas durante la navegación.
 * Planeación de rutas: *Dado un robot, un espacio de trabajo, una configuración inicial y una configuración final, se desea encontrar una ruta libre de colisión para el robot, de la configuración inicial a la configuración final, si ésta existe. En caso contrario, determinar que dicha ruta no existe.* [[5]](#5)
 
 ### Caracterización de la plataforma móvil TurtleBot3:
-- Modelo cinemático
+* Modelo cinemático
 
-Como es un robot diferencial, tiene el modelo cinemátcio siguiente:
+![image](https://emanual.robotis.com/assets/images/platform/turtlebot3/hardware_setup/turtlebot3_dimension1.png)
 
-![image](https://user-images.githubusercontent.com/20031100/190882535-94d602be-c1f8-484d-a60d-3976a3b4d6c2.png)
-
-![image](https://user-images.githubusercontent.com/20031100/190882543-b3ce3e11-d0f2-4b36-9805-c756ae547b8f.png)
-
-![image](https://user-images.githubusercontent.com/20031100/190883055-de66617c-74fd-4875-8d10-2fd724d90433.png)
-
+Al ser un robot no holonómico, es un robot diferencial, por lo que tiene el siguiente modelo cinemático:
 
 $$
 \mathbb{q^°} \ =\ \begin{bmatrix}
@@ -86,16 +81,11 @@ r/2 isnΦ & r/2 sinΦ
 \end{bmatrix}\
 $$
 
-donde: 
-- Φ: es el angulo de giro con respecto al origen 
+en donde: 
+- Φ: es el ángulo de giro con respecto al origen 
 - r: es el radio de las ruedas del robot 
 - d: es la distancia del eje hacia el centro del eje del robot 
 - ωL y ωR : son las velocidades angulares de las ruedas del robot 
-
-
-
-
-
 
 ### Sensores y actuadores que lo integran
 
@@ -136,4 +126,4 @@ Algunos de los tópicos que opcupa
 
 <a id="5">[5]</a> R. O. Muñoz, "Planeación de Rutas para un Actor Digital en un Ambiente Virtual", Electronic Thesis or Dissertation, Universidad de las Américas Puebla, Cholula, Puebla, 2007. Accedido el 20 de septiembre de 2022. [En línea]. Disponible: http://catarina.udlap.mx/u_dl_a/tales/documentos/lis/munoz_r_o/
 
-<a id="6">[6]</a> ROBOTIS e-manual. (s/f). ROBOTIS E-Manual. Recuperado el 16 de septiembre de 2022, de https://emanual.robotis.com/docs/en/platform/turtlebot3/features/
+<a id="6">[6]</a> ROBOTIS - Open Robotics. "ROBOTIS e-Manual". ROBOTIS e-Manual. https://emanual.robotis.com/docs/en/platform/turtlebot3/features/ (accedido el 20 de septiembre de 2022).
