@@ -31,15 +31,22 @@ Markdown permite realizar lo antes mencionado y más, de forma rápida, sencilla
 
 ## Desarrollo
 ### Clasificación de los robots móviles por configuración 
-Los robots con ruedas pueden ser clasificados en dos categorías: 
-- Omnidireccionales 
-- No Holonómicos 
+Los robots moviles se encuentran clasificados en tres: 
 
-Y esto depende mucho por el tipo de ruedas que utiliza, ya que los robots no honolómicos utilizan ruedas convencionales como las que tienen los autos normales: Las ruedas rotan con respecto a un eje perpendicular al plano de la rueda que contiene el centro de esta. 
-![image](https://user-images.githubusercontent.com/20031100/190763168-bd0aa726-2c02-46e3-8f39-21f324e52563.png) [[2]](#2)
+1. Robots móviles por ruedas
+2. Robots móviles por patas
+3. Robots móviles por orugas
 
-Los sistemas omnidireccionales utilizan tipicamente ruedas mecanum (o ruedas suecas). Estas ruedas generalmente es una llant aumentada con rodillos en su circunferencia que giran libremente permitiendo un deslizamiento hacia los lados del sistema.
-![image](https://user-images.githubusercontent.com/20031100/190756597-b9519143-d56e-4b72-917e-6a5ff87f8a58.png) [[2]](#2)
+Siendo los robots moviles por ruedas la categoría que tiene mayor desarrollo, esta, a su vez consta de dos categorias:
+
+* Omnidireccionales
+* No holonómicos
+
+Donde lo que los caracteriza es el tipo de rueda que utilizan, ya que los robots no holonómicos utilizan ruedas convencionales como las que tienen los autos normales
+![image](https://www.researchgate.net/profile/Mohamed-Boukattaya/publication/330970738/figure/fig1/AS:724130081017856@1549657473332/Nonholonomic-wheeled-mobile-robot.ppm)
+
+Mientras que los omnidireccionales utilizan ruedas mecanum, mejor conocidas como ruedas secas. Estas ruedas generalmente es una llanta aumentada con rodillos en su circunferencia que giran libremente permitiendo un deslizamiento en todas las direcciones del sistema.
+![image](https://www.luisllamas.es/wp-content/uploads/2018/09/arduino-robot-omni-wheel-robots.jpg)
 
 ### Restricciones cinemáticas y diferencias entre los tipos de sistmemas
 - Para los sistemas no holonómicos sabemos que la cantidad de grados de libertad controlables es menor a la cantidad de grados totales; como los carros normales, tracciones diferenciales o configuracioens de tricíclos, esto nos dice que no todas las trayectorias son posibles.
@@ -119,17 +126,12 @@ Algunos de los tópicos que opcupa
 ## Referencias
 <a id="1">[1]</a> J. Cristóbal. "Markdown - La guía definitiva en español". Markdown. https://markdown.es/ (accedido el 18 de septiembre de 2022).
 
-
 <a id="2">[2]</a> J. Cristóbal. "Sintaxis Markdown al completo - Cheatsheet en español". Markdown. https://markdown.es/sintaxis-markdown/ (accedido el 18 de septiembre de 2022).
 
-
-<a id="3">[3]</a> (S/f). Femexrobotica.org. Recuperado el 16 de septiembre de 2022, de https://www.femexrobotica.org/eir2016-2017/wp-content/uploads/robots_omnidireccionales.pdf
+<a id="3">[3]</a> K. M. Lynch y F. C. Park, "13. Wheeled Mobile Robots", en Modern Robotics: Mechanics, Planning, and Control. Londres: Cambridge University Press, 2017, pp. 513–553.
 
 <a id="4">[4]</a> Localización y planificación de trayectorias. (s/f). Tekniker.es. Recuperado el 16 de septiembre de 2022, de https://www.tekniker.es/es/localizacion-y-planificacion-de-trayectorias
 
 <a id="5">[5]</a>(S/f-b). Udlap.mx. Recuperado el 16 de septiembre de 2022, de http://catarina.udlap.mx/u_dl_a/tales/documentos/lis/munoz_r_o/capitulo4.pdf
 
 <a id="6">[6]</a> ROBOTIS e-manual. (s/f). ROBOTIS E-Manual. Recuperado el 16 de septiembre de 2022, de https://emanual.robotis.com/docs/en/platform/turtlebot3/features/
-
-
- 
