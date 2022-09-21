@@ -51,7 +51,7 @@ Mientras que los omnidireccionales utilizan ruedas mecanum, mejor conocidas como
 ![image](https://www.luisllamas.es/wp-content/uploads/2018/09/arduino-robot-omni-wheel-robots.jpg)
 
 ### Restricciones cinemáticas y diferencias entre los tipos de sistmemas
-* Para los sistemas no holonómicos, se encuentran restringidos por la cantidad de grados de libertad controlables, que son menores al numero de grados de libertad totales del sistema. Siendo los ejemplos más comunes los carros normales, tracciones diferenciales o configuracioens de tricíclos. Notodas sus trayectorias son posibles.
+* Para los sistemas no holonómicos, se encuentran restringidos por la cantidad de grados de libertad controlables, que son menores al numero de grados de libertad totales del sistema. Siendo los ejemplos más comunes los carros normales, tracciones diferenciales o configuraciones de tricíclos. No todas sus trayectorias son posibles.
 
 * Para los sistemas omnidireccionales u holonómicos, se encuentran restringidos por la cantidad de grados de libertad controlables, que son iguales al numero de grados de libertad totales del sistema. Todas sus trayectorias son posibles. [[3]](#3)
 
@@ -107,7 +107,7 @@ Algunos de los tópicos que opcupa
 - LaserScan
 
 ## Conclusiones
- Markdown es una forma fácil de hacer reportes en repositorios y es sumanente versatil para documentar de forma colaborativa con tu equipo de trabajo, además de lo rápido que es pra hacer cambios en el sistema sin necesidad de abrir varios programas, sino en el mismo sistema de código implementado.
+Markdown es una forma fácil de hacer reportes en repositorios y es sumanente versatil para documentar de forma colaborativa con tu equipo de trabajo, además de lo rápido que es pra hacer cambios en el sistema sin necesidad de abrir varios programas, sino en el mismo sistema de código implementado.
  
 
 ## Autor
