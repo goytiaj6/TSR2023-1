@@ -1,7 +1,5 @@
 # Practica de documentación en Markdown
 
-## 
-
 | Código | Descripcion |
 | ------:| ----------- |
 | ***Asignatura*** | Código del Trabajo o Número de Tarea | 
