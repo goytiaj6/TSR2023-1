@@ -104,11 +104,11 @@ De acuerdo al esquema y tabla de componentes de la página de Robotis, el Turtle
 
 * LIDAR "LDS-01" o "LDS-02" [[6]](#6)
 
-En la parte de acutadores, cuanta con unicamente dos motores:
+En la parte de actuadores, cuenta con unicamente dos motores:
 
 * DYNAMIXEL (XL430-W250-T) [[6]](#6)
 
-#### Nodos y Tópicos de ROS utilizados por la plataforma Turtlebot3 y sus sensores
+#### Nodos y Tópicos de ROS utilizados por la plataforma TurtleBot3
 
 Nodos:
 
@@ -123,7 +123,7 @@ Tópicos:
 
 ## Conclusiones
 
-El empleo de MArkdown para el manejo de información en repositorios hace que sea muchisimo más sencillo y rápido, ya que no es necesario otro software como editores de texto, sin mencionar que el formato puede darse de forma inmediata con la corta y simple sintaxis que tiene Markdown, al mismo tiempo que podemos agregar fórmulas e imagenes mediante pequeñas lineas de código.
+El empleo de Markdown para el manejo de información en repositorios hace que sea muchisimo más sencillo y rápido, ya que no es necesario otro software como editores de texto, sin mencionar que el formato puede darse de forma inmediata con la corta y simple sintaxis que tiene Markdown, al mismo tiempo que podemos agregar fórmulas e imagenes mediante pequeñas lineas de código.
 El trabajar de esta forma es mucho más practica que depender de otros programas, como Word, en el que corremos el riesgo de que los archivos se corrompan facilmente perdiendo toda nuestra información, mientras que Markdown, se esta basando en texto plano.
 
 ## Autor
