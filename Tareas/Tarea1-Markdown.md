@@ -51,15 +51,15 @@ Mientras que los omnidireccionales utilizan ruedas mecanum, mejor conocidas como
 ![image](https://www.luisllamas.es/wp-content/uploads/2018/09/arduino-robot-omni-wheel-robots.jpg)
 
 ### Restricciones cinemáticas y diferencias entre los tipos de sistmemas
-- Para los sistemas no holonómicos sabemos que la cantidad de grados de libertad controlables es menor a la cantidad de grados totales; como los carros normales, tracciones diferenciales o configuracioens de tricíclos, esto nos dice que no todas las trayectorias son posibles.
+* Para los sistemas no holonómicos, se encuentran restringidos por la cantidad de grados de libertad controlables, que son menores al numero de grados de libertad totales del sistema. Siendo los ejemplos más comunes los carros normales, tracciones diferenciales o configuracioens de tricíclos. Notodas sus trayectorias son posibles.
 
-- Para los sistemas omnidireccionales (holonómicos) sabemos que la cantidad de grados de libertad controlables es igual a la cantidad de grados de libertad totales; Lo que nos dice que todas las trayectorias en el plano son posibles. [[3]](#3)
+* Para los sistemas omnidireccionales u holonómicos, se encuentran restringidos por la cantidad de grados de libertad controlables, que son iguales al numero de grados de libertad totales del sistema. Todas sus trayectorias son posibles. [[3]](#3)
 
 ### Conceptos de localización, ruta, odometría y planeación de ruta.
-- Localización: Consiste en determinar la posición del robot en relación a un mapa dado a un entorno. [[4]](#4)
-- Ruta: secuencia de posiciones en las que un robot se encuentra libre de colisión con los obstáculos del espacio de trabajo. [[5]](#5)
-- Odometría: Estudio de la estimación de la posición de vehículos con ruedas durante la navegación 
-- Planeación de rutas: Sea un espacio de trabajo de un robot cuya planeación de ruta es aquella por la cual este desea encontrar un camino libre de colisión dada una configuración incial y una final si existe; en caso contrario que sea capaz de determinarla. [[5]](#5)
+* Localización: Consiste en determinar la posición del robot en relación a un mapa dado del entorno. [[4]](#4)
+* Ruta: Representa la secuencia de posiciones en las que un robot se encuentre libre de colisiónes con los obstáculos del espacio de trabajo. [[5]](#5)
+* Odometría: Es el estudio de la estimación de la posición de vehículos con ruedas durante la navegación.
+* Planeación de rutas: *Dado un robot, un espacio de trabajo, una configuración inicial y una configuración final, se desea encontrar una ruta libre de colisión para el robot, de la configuración inicial a la configuración final, si ésta existe. En caso contrario, determinar que dicha ruta no existe.* [[5]](#5)
 
 ### Caracterización de la plataforma móvil TurtleBot3:
 - Modelo cinemático
@@ -132,8 +132,8 @@ Algunos de los tópicos que opcupa
 
 <a id="3">[3]</a> K. M. Lynch y F. C. Park, "13. Wheeled Mobile Robots", en Modern Robotics: Mechanics, Planning, and Control. Londres: Cambridge University Press, 2017, pp. 513–553.
 
-<a id="4">[4]</a> Localización y planificación de trayectorias. (s/f). Tekniker.es. Recuperado el 16 de septiembre de 2022, de https://www.tekniker.es/es/localizacion-y-planificacion-de-trayectorias
+<a id="4">[4]</a> "Localización y planificación de trayectorias - TEKNIKER". Tekniker | Research and Technology Centre. https://www.tekniker.es/es/localizacion-y-planificacion-de-trayectorias (accedido el 20 de septiembre de 2022).
 
-<a id="5">[5]</a>(S/f-b). Udlap.mx. Recuperado el 16 de septiembre de 2022, de http://catarina.udlap.mx/u_dl_a/tales/documentos/lis/munoz_r_o/capitulo4.pdf
+<a id="5">[5]</a> R. O. Muñoz, "Planeación de Rutas para un Actor Digital en un Ambiente Virtual", Electronic Thesis or Dissertation, Universidad de las Américas Puebla, Cholula, Puebla, 2007. Accedido el 20 de septiembre de 2022. [En línea]. Disponible: http://catarina.udlap.mx/u_dl_a/tales/documentos/lis/munoz_r_o/
 
 <a id="6">[6]</a> ROBOTIS e-manual. (s/f). ROBOTIS E-Manual. Recuperado el 16 de septiembre de 2022, de https://emanual.robotis.com/docs/en/platform/turtlebot3/features/
